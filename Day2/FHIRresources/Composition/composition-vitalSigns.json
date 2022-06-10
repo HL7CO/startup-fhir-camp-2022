@@ -1,0 +1,78 @@
+{
+	"resourceType": "Composition",
+	"identifier": {
+		"value": "DOC-a2d6a8470bad"
+	},
+	"status": "final",
+	"type": {
+		"coding": [
+			{
+				"system": "http://loinc.org",
+				"code": "8716-3",
+				"display": "Vital signs, physical findings"
+			}
+		]
+	},
+	"category": [
+		{
+			"coding": [
+				{
+					"system": "http://loinc.org",
+					"code": "69459-6",
+					"display": "Care record summary panel"
+				}
+			]
+		}
+	],
+	"subject": {
+		"reference": "Patient/54ac308f-5964-4298-8f7c-93538db8a1f4"
+	},
+	"date": "2022-04-17T09:25:58-05:00",
+	"author": [
+		{
+			"reference": "Practitioner/92d1c33d-169c-43dc-9fec-aad3f3ef3e26"
+		}
+	],
+	"title": "PANEL DE SIGNOS VITALES",
+	"confidentiality": "R",
+	"attester": [
+		{
+			"mode": "professional",
+			"time": "2022-04-17T09:25:58-05:00",
+			"party": {
+				"reference": "Practitioner/92d1c33d-169c-43dc-9fec-aad3f3ef3e26"
+			}
+		}
+	],
+	"custodian": {
+		"reference": "Organization/1733f196-2c8a-484f-b874-13396990b69d"
+	},
+	"section": [
+		{
+			"title": "SIGNOS VITALES",
+			"code": {
+				"coding": [
+					{
+						"system": "http://loinc.org",
+						"code": "8716-3",
+						"display": "Vital signs"
+					}
+				]
+			},
+			"entry": [
+				{
+					"reference": "Observation/id-frecuenciaCardiaca"
+				},
+				{
+					"reference": "Observation/id-presionSanguinea"
+				},
+				{
+					"reference": "Observation/id-frecuenciaRespiratoria"
+				},
+				{
+					"reference": "Observation/id-temperaturaCorporal"
+				}
+			]
+		}
+	]
+}

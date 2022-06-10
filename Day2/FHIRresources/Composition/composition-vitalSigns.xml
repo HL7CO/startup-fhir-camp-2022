@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Composition xmlns="http://hl7.org/fhir">
+    <identifier>
+        <value value="DOC-a2d6a8470bad"/>
+    </identifier>
+    <status value="final"/>
+    <type>
+        <coding>
+            <system value="http://loinc.org"/>
+            <code value="8716-3"/>
+            <display value="Vital signs, physical findings"/>
+        </coding>
+    </type>
+    <category>
+        <coding>
+            <system value="http://loinc.org"/>
+            <code value="69459-6"/>
+            <display value="Care record summary panel"/>
+        </coding>
+    </category>
+    <subject>
+        <reference value="Patient/54ac308f-5964-4298-8f7c-93538db8a1f4"/>
+    </subject>
+    <date value="2022-04-17T09:25:58-05:00"/>
+    <author>
+        <reference value="Practitioner/92d1c33d-169c-43dc-9fec-aad3f3ef3e26"/>
+    </author>
+    <title value="PANEL DE SIGNOS VITALES"/>
+    <confidentiality value="R"/>
+    <attester>
+        <mode value="professional"/>
+        <time value="2022-04-17T09:25:58-05:00"/>
+        <party>
+            <reference value="Practitioner/92d1c33d-169c-43dc-9fec-aad3f3ef3e26"/>
+        </party>
+    </attester>
+    <custodian>
+        <reference value="Organization/1733f196-2c8a-484f-b874-13396990b69d"/>
+    </custodian>
+    <section>
+        <title value="SIGNOS VITALES"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="8716-3"/>
+                <display value="Vital signs"/>
+            </coding>
+        </code>
+        <entry>
+            <reference value="Observation/id-frecuenciaCardiaca"/>
+        </entry>
+        <entry>
+            <reference value="Observation/id-presionSanguinea"/>
+        </entry>
+        <entry>
+            <reference value="Observation/id-frecuenciaRespiratoria"/>
+        </entry>
+        <entry>
+            <reference value="Observation/id-temperaturaCorporal"/>
+        </entry>
+    </section>
+</Composition>
