@@ -96,6 +96,10 @@
 						}
 					]
 				}
+			},
+			"request": {
+				"method": "POST",
+				"url": "http://hapi.fhir.org/baseR4/Patient/"
 			}
 		},
 		{
@@ -192,6 +196,10 @@
 						}
 					]
 				}
+			},
+			"request": {
+				"method": "POST",
+				"url": "http://hapi.fhir.org/baseR4/Patient/"
 			}
 		},
 		{
@@ -288,6 +296,10 @@
 						}
 					]
 				}
+			},
+			"request": {
+				"method": "POST",
+				"url": "http://hapi.fhir.org/baseR4/Patient/"
 			}
 		}
 	]

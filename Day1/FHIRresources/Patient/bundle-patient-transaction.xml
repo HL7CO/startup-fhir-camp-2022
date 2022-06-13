@@ -75,6 +75,10 @@
                 </maritalStatus>
             </Patient>
         </resource>
+        <request>
+            <method value="POST"/>
+            <url value="http://hapi.fhir.org/baseR4/Patient/"/>
+        </request>
     </entry>
     <entry>
         <resource>
@@ -150,6 +154,10 @@
                 </maritalStatus>
             </Patient>
         </resource>
+        <request>
+            <method value="POST"/>
+            <url value="http://hapi.fhir.org/baseR4/Patient/"/>
+        </request>
     </entry>
     <entry>
         <resource>
@@ -225,5 +233,9 @@
                 </maritalStatus>
             </Patient>
         </resource>
+        <request>
+            <method value="POST"/>
+            <url value="http://hapi.fhir.org/baseR4/Patient/"/>
+        </request>
     </entry>
 </Bundle>
