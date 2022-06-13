@@ -49,8 +49,10 @@
                 </referenceRange>
             </Observation>
         </resource>
-        <method value="POST"/>
-        <url value="http://hapi.fhir.org/baseR4/Observation/"/>
+        <request>
+            <method value="POST"/>
+            <url value="http://hapi.fhir.org/baseR4/Observation/"/>
+        </request>
     </entry>
     <entry>
         <resource>
@@ -139,8 +141,10 @@
                 </component>
             </Observation>
         </resource>
-        <method value="POST"/>
-        <url value="http://hapi.fhir.org/baseR4/Observation/"/>
+        <request>
+            <method value="POST"/>
+            <url value="http://hapi.fhir.org/baseR4/Observation/"/>
+        </request>
     </entry>
     <entry>
         <resource>
@@ -190,8 +194,10 @@
                 </referenceRange>
             </Observation>
         </resource>
-        <method value="POST"/>
-        <url value="http://hapi.fhir.org/baseR4/Observation/"/>
+        <request>
+            <method value="POST"/>
+            <url value="http://hapi.fhir.org/baseR4/Observation/"/>
+        </request>
     </entry>
     <entry>
         <resource>

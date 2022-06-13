@@ -71,8 +71,10 @@
                 </qualification>
             </Practitioner>
         </resource>
-        <method value="POST"/>
-        <url value="http://hapi.fhir.org/baseR4/Practitioner/"/>
+        <request>
+            <method value="POST"/>
+            <url value="http://hapi.fhir.org/baseR4/Practitioner/"/>
+        </request>
     </entry>
     <entry>
         <resource>
@@ -145,8 +147,10 @@
                 </qualification>
             </Practitioner>
         </resource>
-        <method value="POST"/>
-        <url value="http://hapi.fhir.org/baseR4/Practitioner/"/>
+        <request>
+            <method value="POST"/>
+            <url value="http://hapi.fhir.org/baseR4/Practitioner/"/>
+        </request>
     </entry>
     <entry>
         <resource>
@@ -218,7 +222,9 @@
                 </qualification>
             </Practitioner>
         </resource>
-        <method value="POST"/>
-        <url value="http://hapi.fhir.org/baseR4/Practitioner/"/>
+        <request>
+            <method value="POST"/>
+            <url value="http://hapi.fhir.org/baseR4/Practitioner/"/>
+        </request>
     </entry>
 </Bundle>

@@ -1,6 +1,6 @@
 {
 	"resourceType": "Bundle",
-	"type": "document",
+	"type": "transaction",
 	"entry": [
 		{
 			"resource": {
@@ -30,7 +30,7 @@
 					}
 				],
 				"subject": {
-					"reference": "Patient/54ac308f-5964-4298-8f7c-93538db8a1f4"
+					"reference": "Patient/2a9e6894-c6e5-43fc-8b5b-e6165b0703bb"
 				},
 				"date": "2022-04-17T09:25:58-05:00",
 				"author": [
@@ -80,6 +80,10 @@
 						]
 					}
 				]
+			},
+			"request": {
+				"method": "POST",
+				"url": "http://hapi.fhir.org/baseR4/Composition/"
 			}
 		},
 		{
@@ -108,7 +112,7 @@
 					]
 				},
 				"subject": {
-					"reference": "Patient/54ac308f-5964-4298-8f7c-93538db8a1f4"
+					"reference": "Patient/2a9e6894-c6e5-43fc-8b5b-e6165b0703bb"
 				},
 				"effectiveDateTime": "2022-04-17T09:30:23-05:00",
 				"performer": [
@@ -143,6 +147,10 @@
 						}
 					}
 				]
+			},
+			"request": {
+				"method": "POST",
+				"url": "http://hapi.fhir.org/baseR4/Observation/"
 			}
 		},
 		{
@@ -171,7 +179,7 @@
 					]
 				},
 				"subject": {
-					"reference": "Patient/54ac308f-5964-4298-8f7c-93538db8a1f4"
+					"reference": "Patient/2a9e6894-c6e5-43fc-8b5b-e6165b0703bb"
 				},
 				"effectiveDateTime": "2022-04-17T09:30:23-05:00",
 				"performer": [
@@ -257,6 +265,10 @@
 						]
 					}
 				]
+			},
+			"request": {
+				"method": "POST",
+				"url": "http://hapi.fhir.org/baseR4/Observation/"
 			}
 		},
 		{
@@ -285,7 +297,7 @@
 					]
 				},
 				"subject": {
-					"reference": "Patient/54ac308f-5964-4298-8f7c-93538db8a1f4"
+					"reference": "Patient/2a9e6894-c6e5-43fc-8b5b-e6165b0703bb"
 				},
 				"effectiveDateTime": "2022-04-17T09:30:23-05:00",
 				"performer": [
@@ -320,6 +332,10 @@
 						}
 					}
 				]
+			},
+			"request": {
+				"method": "POST",
+				"url": "http://hapi.fhir.org/baseR4/Observation/"
 			}
 		},
 		{
@@ -348,7 +364,7 @@
 					]
 				},
 				"subject": {
-					"reference": "Patient/54ac308f-5964-4298-8f7c-93538db8a1f4"
+					"reference": "Patient/2a9e6894-c6e5-43fc-8b5b-e6165b0703bb"
 				},
 				"effectiveDateTime": "2022-04-17T09:30:23-05:00",
 				"performer": [
@@ -383,6 +399,10 @@
 						}
 					}
 				]
+			},
+			"request": {
+				"method": "POST",
+				"url": "http://hapi.fhir.org/baseR4/Observation/"
 			}
 		}
 	]

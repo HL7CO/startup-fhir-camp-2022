@@ -94,6 +94,10 @@
 						}
 					}
 				]
+			},
+			"request": {
+				"method": "POST",
+				"url": "http://hapi.fhir.org/baseR4/Practitioner/"
 			}
 		},
 		{
@@ -189,6 +193,10 @@
 						}
 					}
 				]
+			},
+			"request": {
+				"method": "POST",
+				"url": "http://hapi.fhir.org/baseR4/Practitioner/"
 			}
 		},
 		{
@@ -283,6 +291,10 @@
 						}
 					}
 				]
+			},
+			"request": {
+				"method": "POST",
+				"url": "http://hapi.fhir.org/baseR4/Practitioner/"
 			}
 		}
 	]
