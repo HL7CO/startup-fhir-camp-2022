@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="e4ae1366-3437-472c-9afc-f6482ea774ac"/>
+  <meta>
+    <profile value="StructureDefinition/PacienteCo"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Luis Alberto Sanchez </b> male, DoB: 1974-12-25 ( Cédula ciudadanía: 98765)</p></div>
+  </text>
+  <identifier>
+    <type>
+      <extension url="https://www.minsalud.gov.co/ihc/fhir/StructureDefinition/co-pais">
+        <valueCodeableConcept>
+          <coding>
+            <system value="https://www.minsalud.gov.co/ihc/fhir/CodeSystem/PaisesCS"/>
+            <code value="170"/>
+          </coding>
+        </valueCodeableConcept>
+      </extension>
+      <coding>
+        <system value="https://www.minsalud.gov.co/ihc/fhir/CodeSystem/IdspersonaColombia"/>
+        <code value="CC"/>
+        <display value="Cédula ciudadanía"/>
+      </coding>
+    </type>
+    <value value="98765"/>
+    <assigner>
+      <display value="Registraduria Nacional"/>
+    </assigner>
+  </identifier>
+  <name>
+    <family value="Sanchez">
+      <extension url="http://hl7.org/fhir/StructureDefinition/humanname-mothers-family">
+        <valueString value="Martinez"/>
+      </extension>
+    </family>
+    <given value="Luis"/>
+    <given value="Alberto"/>
+  </name>
+  <gender value="male"/>
+  <birthDate value="1974-12-25"/>
+</Patient>

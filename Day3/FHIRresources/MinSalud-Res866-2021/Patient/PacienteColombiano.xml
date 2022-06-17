@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="0bcc4194-1934-4dcb-85c0-286ad9809502"/>
+  <meta>
+    <profile value="StructureDefinition/PacienteCo"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Miguel Angel López </b> male, DoB: 1974-12-25 ( Cédula ciudadanía: 12345)</p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/patient-genderIdentity">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://www.minsalud.gov.co/ihc/fhir/CodeSystem/IdentidadGeneroCS"/>
+        <code value="03"/>
+        <display value="Transgénero"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/patient-disability">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://www.minsalud.gov.co/ihc/fhir/CodeSystem/DiscapacidadCS"/>
+        <code value="01"/>
+        <display value="Discapacidad física"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="https://www.minsalud.gov.co/ihc/fhir/StructureDefinition/co-patient-etnia">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://www.minsalud.gov.co/ihc/fhir/CodeSystem/EtniaCS"/>
+        <code value="01"/>
+        <display value="Indigena"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="https://www.minsalud.gov.co/ihc/fhir/StructureDefinition/co-patient-nacionalidad">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://www.minsalud.gov.co/ihc/fhir/CodeSystem/PaisesCS"/>
+        <code value="170"/>
+        <display value="Colombia"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <identifier>
+    <type>
+      <extension url="https://www.minsalud.gov.co/ihc/fhir/StructureDefinition/co-pais">
+        <valueCodeableConcept>
+          <coding>
+            <system value="https://www.minsalud.gov.co/ihc/fhir/CodeSystem/PaisesCS"/>
+            <code value="170"/>
+          </coding>
+        </valueCodeableConcept>
+      </extension>
+      <coding>
+        <system value="https://www.minsalud.gov.co/ihc/fhir/CodeSystem/IdspersonaColombia"/>
+        <code value="CC"/>
+        <display value="Cédula ciudadanía"/>
+      </coding>
+    </type>
+    <system value="http://minsalud.gov.co/ihc/ide/170/CC"/>
+    <value value="12345"/>
+    <assigner>
+      <display value="Registraduria Nacional"/>
+    </assigner>
+  </identifier>
+  <name>
+    <family value="López">
+      <extension url="http://hl7.org/fhir/StructureDefinition/humanname-mothers-family">
+        <valueString value="Ortíz"/>
+      </extension>
+    </family>
+    <given value="Miguel"/>
+    <given value="Angel"/>
+  </name>
+  <gender value="male"/>
+  <birthDate value="1974-12-25">
+    <extension url="http://hl7.org/fhir/StructureDefinition/patient-birthTime">
+      <valueDateTime value="1974-12-25T14:35:45-05:00"/>
+    </extension>
+  </birthDate>
+  <address>
+    <extension url="https://www.minsalud.gov.co/ihc/fhir/StructureDefinition/co-address-zonaResidencia">
+      <valueCodeableConcept>
+        <coding>
+          <system value="https://www.minsalud.gov.co/ihc/fhir/CodeSystem/ZonaResidenciaCS"/>
+          <code value="02"/>
+          <display value="Rural"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+    <city value="Medellín"/>
+    <country value="152"/>
+  </address>
+</Patient>

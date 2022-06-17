@@ -1,0 +1,26 @@
+{
+	"resourceType": "Condition",
+	"id": "67708d03-d47f-4ee3-ad78-96d9a8da665c",
+	"meta": {
+		"profile": [
+			"StructureDefinition/ConditionCo"
+		]
+	},
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"ConditionColombia\" Version \"1\" Updated \"2022-01-13 10:23:44+0000\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ConditionCo.html\">Condition Co</a></p></div><p><b>code</b>: Diabetes Tipo 1, con complicaciones neurologicas <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-icd10.html\">ICD-10</a>#E10.4 \"Type 1 diabetes mellitus : With neurological complications\")</span></p><p><b>subject</b>: <a href=\"Patient-PacienteColombiano.html\">Patient/0bcc4194-1934-4dcb-85c0-286ad9809502</a> \" LÓPEZ\"</p></div>"
+	},
+	"code": {
+		"coding": [
+			{
+				"system": "http://hl7.org/fhir/sid/icd-10",
+				"code": "E10.4",
+				"display": "Type 1 diabetes mellitus : With neurological complications"
+			}
+		],
+		"text": "Diabetes Tipo 1, con complicaciones neurologicas"
+	},
+	"subject": {
+		"reference": "Patient/0bcc4194-1934-4dcb-85c0-286ad9809502"
+	}
+}

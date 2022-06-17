@@ -1,0 +1,220 @@
+{
+	"resourceType": "Bundle",
+	"type": "transaction",
+	"entry": [
+		{
+			"fullUrl": "DocumentReference/DocumentReferenceCo",
+			"resource": {
+				"resourceType": "DocumentReference",
+				"id": "8c7e935d-bd41-442b-8f72-487ec0940e7c",
+				"meta": {
+					"profile": [
+						"StructureDefinition/DocumentReferenceCo"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"DocumentReferenceCo\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-DocumentReferenceCo.html\">Referencia de Documentos</a></p></div><p><b>status</b>: current</p><p><b>type</b>: Patient summary Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#60591-5)</span></p><p><b>subject</b>: <a href=\"#Patient_e4ae1366-3437-472c-9afc-f6482ea774ac\">See above (Patient/0bcc4194-1934-4dcb-85c0-286ad9809502)</a></p><p><b>date</b>: 3 mar. 2022 07:30:00</p><p><b>author</b>: <a href=\"Practitioner-ProfesionalColombia.html\">Practitioner/f11dbada-c772-4025-a23c-f7deb42e29f7</a></p><p><b>custodian</b>: <a href=\"Organization-OrganizacionEjemplo.html\">Organization/33f613af-b634-46fa-a45e-6fc5af02b119</a> \"DIRECCION DEPARTAMENTAL DE ANTIOQUIA\"</p><blockquote><p><b>content</b></p></blockquote></div>"
+				},
+				"status": "current",
+				"type": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "60591-5"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/0bcc4194-1934-4dcb-85c0-286ad9809502"
+				},
+				"date": "2022-03-03T10:30:00Z",
+				"author": [
+					{
+						"reference": "Practitioner/f11dbada-c772-4025-a23c-f7deb42e29f7"
+					}
+				],
+				"custodian": {
+					"reference": "Organization/33f613af-b634-46fa-a45e-6fc5af02b119"
+				},
+				"content": [
+					{
+						"attachment": {
+							"contentType": "application/fhir+json",
+							"url": "https://www.minsalud.gov.co/ihc/Bogota/Composition/3213131"
+						}
+					}
+				]
+			},
+			"request": {
+				"method": "PUT",
+				"url": "DocumentReference/8c7e935d-bd41-442b-8f72-487ec0940e7c"
+			}
+		},
+		{
+			"fullUrl": "Composition/462fc8e7-2780-448a-9704-d1d0fa83f389",
+			"resource": {
+				"resourceType": "Composition",
+				"id": "462fc8e7-2780-448a-9704-d1d0fa83f389",
+				"meta": {
+					"profile": [
+						"StructureDefinition/CompositionCo"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"CompositionColombia\" Version \"1\" Updated \"2021-10-13 10:23:44+0000\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CompositionCo.html\">Documento Co</a></p></div><p><b>status</b>: final</p><p><b>type</b>: Patient Summary Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2022-03-05 06:30:00+0100</p><p><b>author</b>: <a href=\"Practitioner-ProfesionalColombia.html\">Practitioner/f11dbada-c772-4025-a23c-f7deb42e29f7</a></p><p><b>title</b>: Resumen de Paciente Colombia</p></div>"
+				},
+				"status": "final",
+				"type": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "60591-5",
+							"display": "Patient Summary Document"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/0bcc4194-1934-4dcb-85c0-286ad9809502"
+				},
+				"date": "2022-03-05T18:30:00+01:00",
+				"author": [
+					{
+						"reference": "Practitioner/f11dbada-c772-4025-a23c-f7deb42e29f7"
+					}
+				],
+				"title": "Resumen de Paciente Colombia",
+				"section": [
+					{
+						"title": "Condiciones del Paciente",
+						"code": {
+							"coding": [
+								{
+									"system": "http://loinc.org",
+									"code": "11450-4",
+									"display": "Problem list Reported"
+								}
+							]
+						},
+						"text": {
+							"status": "generated",
+							"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">CONDICIONES</div>"
+						},
+						"entry": [
+							{
+								"reference": "Condition/67708d03-d47f-4ee3-ad78-96d9a8da665c"
+							}
+						]
+					}
+				]
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Composition/462fc8e7-2780-448a-9704-d1d0fa83f389"
+			}
+		},
+		{
+			"fullUrl": "Condition/67708d03-d47f-4ee3-ad78-96d9a8da665c",
+			"resource": {
+				"resourceType": "Condition",
+				"id": "67708d03-d47f-4ee3-ad78-96d9a8da665c",
+				"meta": {
+					"profile": [
+						"StructureDefinition/ConditionCo"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"ConditionColombia\" Version \"1\" Updated \"2022-01-13 10:23:44+0000\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ConditionCo.html\">Condition Co</a></p></div><p><b>code</b>: Diabetes Tipo 1, con complicaciones neurologicas <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-icd10.html\">ICD-10</a>#E10.4 \"Type 1 diabetes mellitus : With neurological complications\")</span></p><p><b>subject</b>: <a href=\"Patient-PacienteColombiano.html\">Patient/0bcc4194-1934-4dcb-85c0-286ad9809502</a> \" LÓPEZ\"</p></div>"
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http://hl7.org/fhir/sid/icd-10",
+							"code": "E10.4",
+							"display": "Type 1 diabetes mellitus : With neurological complications"
+						}
+					],
+					"text": "Diabetes Tipo 1, con complicaciones neurologicas"
+				},
+				"subject": {
+					"reference": "Patient/0bcc4194-1934-4dcb-85c0-286ad9809502"
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Condition/67708d03-d47f-4ee3-ad78-96d9a8da665c"
+			}
+		},
+		{
+			"fullUrl": "Patient/0bcc4194-1934-4dcb-85c0-286ad9809502",
+			"resource": {
+				"resourceType": "Patient",
+				"id": "e4ae1366-3437-472c-9afc-f6482ea774ac",
+				"meta": {
+					"profile": [
+						"StructureDefinition/PacienteCo"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"e4ae1366-3437-472c-9afc-f6482ea774ac\" Version \"1\" Updated \"2022-03-08 10:23:44+0000\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PacienteCo.html\">Paciente Co</a></p></div><p><b>identifier</b>: Cédula ciudadanía: 98765</p><p><b>name</b>: Luis Alberto Sanchez </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1974-12-25</p></div>"
+				},
+				"identifier": [
+					{
+						"type": {
+							"extension": [
+								{
+									"url": "https://www.minsalud.gov.co/ihc/fhir/StructureDefinition/co-pais",
+									"valueCodeableConcept": {
+										"coding": [
+											{
+												"system": "https://www.minsalud.gov.co/ihc/fhir/CodeSystem/PaisesCS",
+												"code": "170"
+											}
+										]
+									}
+								}
+							],
+							"coding": [
+								{
+									"system": "https://www.minsalud.gov.co/ihc/fhir/CodeSystem/IdspersonaColombia",
+									"code": "CC",
+									"display": "Cédula ciudadanía"
+								}
+							]
+						},
+						"value": "98765",
+						"assigner": {
+							"display": "Registraduria Nacional"
+						}
+					}
+				],
+				"name": [
+					{
+						"_family": {
+							"extension": [
+								{
+									"url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+									"valueString": "Martinez"
+								}
+							]
+						},
+						"family": "Sanchez",
+						"given": [
+							"Luis",
+							"Alberto"
+						]
+					}
+				],
+				"gender": "male",
+				"birthDate": "1974-12-25"
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Patient/e4ae1366-3437-472c-9afc-f6482ea774ac"
+			}
+		}
+	]
+}

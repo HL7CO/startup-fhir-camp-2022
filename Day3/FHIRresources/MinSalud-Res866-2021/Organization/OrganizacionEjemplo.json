@@ -1,0 +1,21 @@
+{
+	"resourceType": "Organization",
+	"id": "33f613af-b634-46fa-a45e-6fc5af02b119",
+	"meta": {
+		"profile": [
+			"StructureDefinition/OrganizacionCo"
+		]
+	},
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"OrganizacionEjemplo\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-OrganizacionCo.html\">Prestador Co</a></p></div><p><b>identifier</b>: id: 05000</p><p><b>active</b>: true</p><p><b>name</b>: DIRECCION DEPARTAMENTAL DE ANTIOQUIA</p></div>"
+	},
+	"identifier": [
+		{
+			"system": "https://www.minsalud.gov.co/ihc/codigosOrganizacionSGSSS",
+			"value": "05000"
+		}
+	],
+	"active": true,
+	"name": "DIRECCION DEPARTAMENTAL DE ANTIOQUIA"
+}

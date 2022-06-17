@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="f11dbada-c772-4025-a23c-f7deb42e29f7"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2021-10-13T22:23:44.162Z"/>
+    <profile value="https://www.minsalud.gov.co/ihc/fhir/StructureDefinition/PractitionerCo"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "ProfesionalColombia" Version "1" Updated "2021-10-13 10:23:44+0000" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PractitionerCo.html">Profesional Co</a></p></div><p><b>identifier</b>: Cédula ciudadanía: 12345</p></div>
+  </text>
+  <identifier>
+    <type>
+      <extension url="https://www.minsalud.gov.co/ihc/fhir/StructureDefinition/co-pais">
+        <valueCodeableConcept>
+          <coding>
+            <system value="https://www.minsalud.gov.co/ihc/fhir/CodeSystem/PaisesCS"/>
+            <code value="170"/>
+          </coding>
+        </valueCodeableConcept>
+      </extension>
+      <coding>
+        <system value="https://www.minsalud.gov.co/ihc/fhir/CodeSystem/IdspersonaColombia"/>
+        <code value="CC"/>
+        <display value="Cédula ciudadanía"/>
+      </coding>
+    </type>
+    <value value="12345"/>
+    <assigner>
+      <display value="Registraduria Nacional"/>
+    </assigner>
+  </identifier>
+</Practitioner>

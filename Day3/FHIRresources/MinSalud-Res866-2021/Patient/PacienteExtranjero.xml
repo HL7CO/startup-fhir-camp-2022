@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="ffc34d0d-2f10-4f24-b47d-6486f77a9d47"/>
+  <meta>
+     <profile value="StructureDefinition/PacienteCo"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Ana Maria null </b> female, DoB: 1974-12-25 ( Pasaporte: 9753)</p></div>
+  </text>
+  <identifier>
+    <type>
+      <extension url="https://www.minsalud.gov.co/ihc/fhir/StructureDefinition/co-pais">
+        <valueCodeableConcept>
+          <coding>
+            <system value="https://www.minsalud.gov.co/ihc/fhir/CodeSystem/PaisesCS"/>
+            <code value="032"/>
+          </coding>
+        </valueCodeableConcept>
+      </extension>
+      <coding>
+        <system value="https://www.minsalud.gov.co/ihc/fhir/CodeSystem/IdspersonaColombia"/>
+        <code value="PA"/>
+        <display value="Pasaporte"/>
+      </coding>
+    </type>
+    <value value="9753"/>
+  </identifier>
+  <name>
+    <family>
+      <extension url="http://hl7.org/fhir/StructureDefinition/humanname-mothers-family">
+        <valueString value="Rivas"/>
+      </extension>
+    </family>
+    <given value="Ana"/>
+    <given value="Maria"/>
+  </name>
+  <gender value="female"/>
+  <birthDate value="1974-12-25">
+    <extension url="http://hl7.org/fhir/StructureDefinition/patient-birthTime">
+      <valueDateTime value="1974-12-25T14:35:45-05:00"/>
+    </extension>
+  </birthDate>
+</Patient>

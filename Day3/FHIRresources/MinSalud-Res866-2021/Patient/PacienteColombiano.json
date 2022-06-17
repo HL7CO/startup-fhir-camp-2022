@@ -1,0 +1,141 @@
+{
+	"resourceType": "Patient",
+	"id": "0bcc4194-1934-4dcb-85c0-286ad9809502",
+	"meta": {
+		"profile": [
+			"StructureDefinition/PacienteCo"
+		]
+	},
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Miguel Angel López </b> male, DoB: 1974-12-25 ( Cédula ciudadanía: 12345)</p></div>"
+	},
+	"extension": [
+		{
+			"url": "http://hl7.org/fhir/StructureDefinition/patient-genderIdentity",
+			"valueCodeableConcept": {
+				"coding": [
+					{
+						"system": "https://www.minsalud.gov.co/ihc/fhir/CodeSystem/IdentidadGeneroCS",
+						"code": "03",
+						"display": "Transgénero"
+					}
+				]
+			}
+		},
+		{
+			"url": "http://hl7.org/fhir/StructureDefinition/patient-disability",
+			"valueCodeableConcept": {
+				"coding": [
+					{
+						"system": "https://www.minsalud.gov.co/ihc/fhir/CodeSystem/DiscapacidadCS",
+						"code": "01",
+						"display": "Discapacidad física"
+					}
+				]
+			}
+		},
+		{
+			"url": "https://www.minsalud.gov.co/ihc/fhir/StructureDefinition/co-patient-etnia",
+			"valueCodeableConcept": {
+				"coding": [
+					{
+						"system": "https://www.minsalud.gov.co/ihc/fhir/CodeSystem/EtniaCS",
+						"code": "01",
+						"display": "Indigena"
+					}
+				]
+			}
+		},
+		{
+			"url": "https://www.minsalud.gov.co/ihc/fhir/StructureDefinition/co-patient-nacionalidad",
+			"valueCodeableConcept": {
+				"coding": [
+					{
+						"system": "https://www.minsalud.gov.co/ihc/fhir/CodeSystem/PaisesCS",
+						"code": "170",
+						"display": "Colombia"
+					}
+				]
+			}
+		}
+	],
+	"identifier": [
+		{
+			"type": {
+				"extension": [
+					{
+						"url": "https://www.minsalud.gov.co/ihc/fhir/StructureDefinition/co-pais",
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "https://www.minsalud.gov.co/ihc/fhir/CodeSystem/PaisesCS",
+									"code": "170"
+								}
+							]
+						}
+					}
+				],
+				"coding": [
+					{
+						"system": "https://www.minsalud.gov.co/ihc/fhir/CodeSystem/IdspersonaColombia",
+						"code": "CC",
+						"display": "Cédula ciudadanía"
+					}
+				]
+			},
+			"system": "http://minsalud.gov.co/ihc/ide/170/CC",
+			"value": "12345",
+			"assigner": {
+				"display": "Registraduria Nacional"
+			}
+		}
+	],
+	"name": [
+		{
+			"_family": {
+				"extension": [
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+						"valueString": "Ortíz"
+					}
+				]
+			},
+			"family": "López",
+			"given": [
+				"Miguel",
+				"Angel"
+			]
+		}
+	],
+	"gender": "male",
+	"_birthDate": {
+		"extension": [
+			{
+				"url": "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
+				"valueDateTime": "1974-12-25T14:35:45-05:00"
+			}
+		]
+	},
+	"birthDate": "1974-12-25",
+	"address": [
+		{
+			"extension": [
+				{
+					"url": "https://www.minsalud.gov.co/ihc/fhir/StructureDefinition/co-address-zonaResidencia",
+					"valueCodeableConcept": {
+						"coding": [
+							{
+								"system": "https://www.minsalud.gov.co/ihc/fhir/CodeSystem/ZonaResidenciaCS",
+								"code": "02",
+								"display": "Rural"
+							}
+						]
+					}
+				}
+			],
+			"city": "Medellín",
+			"country": "152"
+		}
+	]
+}

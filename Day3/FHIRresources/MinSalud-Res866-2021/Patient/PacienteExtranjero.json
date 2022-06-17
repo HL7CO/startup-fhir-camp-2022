@@ -1,0 +1,66 @@
+{
+	"resourceType": "Patient",
+	"id": "ffc34d0d-2f10-4f24-b47d-6486f77a9d47",
+	"meta": {
+		"profile": [
+			"StructureDefinition/PacienteCo"
+		]
+	},
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Ana Maria null </b> female, DoB: 1974-12-25 ( Pasaporte: 9753)</p></div>"
+	},
+	"identifier": [
+		{
+			"type": {
+				"extension": [
+					{
+						"url": "https://www.minsalud.gov.co/ihc/fhir/StructureDefinition/co-pais",
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "https://www.minsalud.gov.co/ihc/fhir/CodeSystem/PaisesCS",
+									"code": "032"
+								}
+							]
+						}
+					}
+				],
+				"coding": [
+					{
+						"system": "https://www.minsalud.gov.co/ihc/fhir/CodeSystem/IdspersonaColombia",
+						"code": "PA",
+						"display": "Pasaporte"
+					}
+				]
+			},
+			"value": "9753"
+		}
+	],
+	"name": [
+		{
+			"_family": {
+				"extension": [
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+						"valueString": "Rivas"
+					}
+				]
+			},
+			"given": [
+				"Ana",
+				"Maria"
+			]
+		}
+	],
+	"gender": "female",
+	"_birthDate": {
+		"extension": [
+			{
+				"url": "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
+				"valueDateTime": "1974-12-25T14:35:45-05:00"
+			}
+		]
+	},
+	"birthDate": "1974-12-25"
+}
